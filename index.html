@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <h1>STUDENTS LIST</h1>
+   <div class="parent">
+    <label for="amountInput">ENTER AMOUNT: </label>
+    <br><br>
+    <input type="number" id="amountInput" value="" min="0" placeholder="Enter amount">
+    
+<button onclick="updateTotalAmount()" id="ent">
+  <span class="material-symbols-outlined large-icon">
+    arrow_circle_right
+  </span>
+</button>
+    <br><br><br><hr><br><br>
+    <div class="btn">
+    <button onclick="uncheckAll()"><span class="material-symbols-outlined">
+remove_done
+</span></button>
+    <button onclick="showUncheckedStudents()"><span class="material-symbols-outlined">
+history
+</span></button>
+    <button onclick="checkAll()"><span class="material-symbols-outlined">
+done_all
+</span></button>
+</div>
+    
+</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Students</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="studentList">
+        </tbody>
+    </table>
+<table class="styled-table">
+        <tr>
+            <th>Details</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>COLLECTED AMOUNT:</td>
+            <td><span id="collectedAmount" class="value">0 </span>₹</td>
+        </tr>
+
+        <tr>
+            <td>REMAINING AMOUNT:</td>
+            <td><span id="totAmount" class="value">0 </span>₹</td>
+        </tr>
+        <tr>
+            <td>NUMBER OF STUDENTS PAID:</td>
+            <td><span id="checkedStudentsCount" class="value">0</span></td>
+        </tr>
+        <tr>
+            <td>NUMBER OF STUDENTS UNPAID:</td>
+            <td><span id="uncheckedStudentsCount" class="value">0</span></td>
+        </tr>
+    </table>
+    <h1 id="rem"></h1>
+<br><br>
+    <button onclick="window.print()" style="position: absolute;right:4%;padding:2%;width: 20%;">print</button>
+    <br><br><br><br><br>
+  <hr>
+  <br>
+  <p style="text-align: center;color: darkgrey;">REXON SOFTWARES V 1.0</p>
+  <script src="index.js"></script>
+</body>
+</html>

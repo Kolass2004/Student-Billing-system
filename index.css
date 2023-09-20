@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Ubuntu', sans-serif;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 4%;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        input[type="number"] {
+            width: 60px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        #totalAmount {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #studentList tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #studentList tr:hover {
+            background-color: #ddd;
+        }
+        #amountInput{
+          
+          width: 80%;
+          padding: 3%;
+        }  
+        #ent{
+          
+          background: transparent;
+          color: #3498db;
+          
+        }
+        .large-icon{
+          position: absolute;
+          top: 128px;
+          font-size: 40px;
+        }
+        .btn{
+          display:flex;
+          justify-content: space-evenly;
+          
+        }
+        .btn button{
+          width:30%;
+
+        }
+        /* CSS for tablets and large PC screens */
+@media screen and (min-width: 768px) {
+         
+          #amountInput{
+          
+          width: 50%;
+          padding: 1%;
+        }  
+                .large-icon{
+          position: absolute;
+          top: 150px;
+          font-size: 40px;
+        }
+        .btn{
+          display:flex;
+          justify-content: space-around;
+          
+        }
+        .btn button{
+          width:10%;
+          padding: 2%;
+          background: #3498db;
+          color: #fff;
+        }
+}
+    
