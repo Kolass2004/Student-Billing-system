@@ -1,4 +1,4 @@
-const url = 'https://jkdevolpers.000webhostapp.com/cse/students.json';
+const url = ''; // url of the api which contains students details 
         let totalAmount = 0; // Declare totalAmount as a global variable
 
         // Define the updateTotalAmount function in the global scope
