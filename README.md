@@ -1,6 +1,7 @@
-# Kolassrexon Project
+# Student Billing System 
 
-Student Billing System 
+Created and maintained By kolass rexon J
+
 
 ## Introduction 
 
