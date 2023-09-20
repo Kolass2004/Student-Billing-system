@@ -13,6 +13,10 @@ It is open-source software build in vanilla javascript
 
 initial Build v0.0.1
 
+## License
+
+ this licensed under the **MIT Public License v3 (MIT-3)** 
+
 ## screenshots 
 
 <p align="center">
@@ -25,6 +29,3 @@ initial Build v0.0.1
 
 
 
-## License
-
- this licensed under the **MIT Public License v3 (GPL-3)** 
