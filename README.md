@@ -27,4 +27,4 @@ initial Build v0.0.1
 
 ## License
 
- this licensed under the **GNU General Public License v3 (GPL-3)** (http://www.gnu.org/copyleft/gpl.html).-
+ this licensed under the **MIT Public License v3 (GPL-3)** 
