@@ -27,7 +27,7 @@ const url = ''; // url of the api which contains students details
 
         // Define the showUncheckedStudents function in the global scope
         function showUncheckedStudents() {
-            // ... (Your existing code for showing unchecked students)
+            //  existing code  for showing unchecked students)
 
             // After calculating totalAmount and uncheckedStudents, update the remaining amount
             
