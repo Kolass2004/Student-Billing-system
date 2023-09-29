@@ -1,7 +1,7 @@
 const url = ''; // url of the api which contains students details 
-        let totalAmount = 0; // Declare totalAmount as a global variable
+        let totalAmount = 0; 
 
-        // Define the updateTotalAmount function in the global scope
+        
         function updateTotalAmount() {
             const checkboxes = document.querySelectorAll('input[type="checkbox"]');
             const amountInput = document.getElementById("amountInput");
@@ -17,7 +17,7 @@ const url = ''; // url of the api which contains students details
                 }
             });
 
-            // Update the collected amount, checked students count, and remaining amount
+            
             document.getElementById("collectedAmount").textContent = totalAmount;
             document.getElementById("checkedStudentsCount").textContent = checkedStudentsCount;
              // Initially set to collected amount
@@ -25,17 +25,13 @@ const url = ''; // url of the api which contains students details
             document.getElementById("totAmount").textContent = totalAmount;
         }
 
-        // Define the showUncheckedStudents function in the global scope
-        function showUncheckedStudents() {
-            //  existing code  for showing unchecked students)
 
-            // After calculating totalAmount and uncheckedStudents, update the remaining amount
+        function showUncheckedStudents() {
             
             document.getElementById("uncheckedStudentsCount").textContent = uncheckedStudents.length;
         }
 
-        let data; // Define the data variable in the global scope
-//totAmount
+        let data; 
         
         fetch(url)
             .then(res => res.json())
@@ -88,7 +84,7 @@ const url = ''; // url of the api which contains students details
             totalAmount = 0;
             document.getElementById("collectedAmount").textContent = 0;
         }
- // Define the showUncheckedStudents function in the global scope
+ //  showUncheckedStudents function 
         function showUncheckedStudents() {
             if (!data) {
                 alert("Data is not available yet. Please wait for it to load.");
