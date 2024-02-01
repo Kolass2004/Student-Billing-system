@@ -20,7 +20,6 @@ const url = ''; // url of the api which contains students details
             
             document.getElementById("collectedAmount").textContent = totalAmount;
             document.getElementById("checkedStudentsCount").textContent = checkedStudentsCount;
-             // Initially set to collected amount
             document.getElementById("uncheckedStudentsCount").textContent = checkboxes.length - checkedStudentsCount;
             document.getElementById("totAmount").textContent = totalAmount;
         }
